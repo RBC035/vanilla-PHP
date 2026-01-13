@@ -1,0 +1,35 @@
+php-mvc-api/
+├── config/
+│   ├── Database.php
+│   ├── Constants.php
+│   └── Env.php
+├── public/
+│   ├── index.php
+│   └── .htaccess
+├── app/
+│   ├── Controllers/
+│   │   ├── AuthController.php
+│   │   ├── UserController.php
+│   │   └── ProductController.php
+│   ├── Models/
+│   │   ├── User.php
+│   │   ├── Product.php
+│   │   └── BaseModel.php
+│   ├── Middleware/
+│   │   ├── JWTMiddleware.php
+│   │   ├── CORSMiddleware.php
+│   │   └── ValidationMiddleware.php
+│   ├── Helpers/
+│   │   ├── JWT.php
+│   │   ├── Response.php
+│   │   ├── Validator.php
+│   │   └── Hash.php
+│   └── Routes/
+│       └── api.php
+├── logs/
+│   └── error.log
+├── .env
+├── .env.example
+├── .htaccess
+├── composer.json
+└── README.md
